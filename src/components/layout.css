@@ -99,6 +99,13 @@ a:active {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1000px) {
+  .contact {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .contact {
     align-items: center;

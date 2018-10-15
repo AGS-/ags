@@ -12,9 +12,13 @@ export default () => (
           currently building cool stuff at Facebook. Currently on the Oculus PC
           Team, previously GraphQL.
         </p>
-        <p>@ags1_0</p>
-        <p>angelgomezsalazar.com</p>
-        <p>github.com/ags-</p>
+        <div className="links">
+          <a href="https://github.com/ags-">GH: ags-</a>
+          <br />
+          <a href="https://twitter.com/ags1_0">Twitter: @ags1_0</a>
+          <br />
+          <a href="https://www.instagram.com/ags1.0/">IG: @ags1.0</a>
+        </div>
       </div>
     </div>
   </div>

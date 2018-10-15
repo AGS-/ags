@@ -10,7 +10,6 @@ body {
 
 .contact {
   background-color: white;
-  height: 40vh;
   margin-top: 100vh;
   z-index: 1;
 }
@@ -28,8 +27,15 @@ body {
   width: 40%;
 }
 
-.leftpane-top{
+.leftpane-top {
+  font-size: 1.75em;
   margin-top: 0;
+}
+
+.links {
+  font-size: 1.15em;
+  margin-top: 2em;
+  text-align: end;
 }
 
 .main {
@@ -56,12 +62,34 @@ body {
 }
 
 .rightpane-top {
+  font-size: 1.5em;
   margin-top: 0;
+  text-align: justify;
 }
 
 .subtext {
   font-size: 2.5em;
   margin-top: .25em;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {

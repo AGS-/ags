@@ -8,6 +8,13 @@ body {
   margin: 0;
 }
 
+.arrow {
+  margin-right: .25em;
+  margin-top: -3em;
+  position: absolute;
+  right: 0;
+}
+
 .contact {
   background-color: white;
   margin-top: 100vh;

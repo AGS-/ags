@@ -9,8 +9,16 @@ const Layout = ({children}) => (
     <Helmet
       title={'Angel Gomez Salazar'}
       meta={[
-        {name: 'description', content: 'Sample'},
-        {name: 'keywords', content: 'sample, something'},
+        {
+          name: 'description',
+          content:
+            'Angel Gomez Salazar is a San Francisco based Software Engineer building cool stuff at Facebook. Currently on the Oculus PC Team, previously GraphQL.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'software, engineer, Facebook, Angel Gomez, Angel Gomez Salazar, developer, programming, JavaScript',
+        },
       ]}
     >
       <html lang="en" />

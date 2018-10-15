@@ -9,8 +9,8 @@ export default () => (
       <div className="rightpane">
         <p className="rightpane-top">
           Angel Gomez Salazar is a San Francisco based Software Engineer
-          currently building cool stuff at Facebook. Currently on the Oculus PC
-          Team, previously GraphQL.
+          building cool stuff at Facebook. Currently on the Oculus PC Team,
+          previously GraphQL.
         </p>
         <div className="links">
           <a href="https://github.com/ags-">GH: ags-</a>

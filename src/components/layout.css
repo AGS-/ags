@@ -36,13 +36,16 @@ body {
 
 .leftpane-top {
   font-size: 1.75em;
+  margin-bottom: .4em;
   margin-top: 0;
 }
 
-.links {
-  font-size: 1.15em;
-  margin-top: 2em;
-  text-align: end;
+.links-leftpane {
+  font-size: 1em;
+}
+
+.links-rightpane {
+  display: none;
 }
 
 .main {
@@ -71,7 +74,6 @@ body {
 .rightpane-top {
   font-size: 1.5em;
   margin-top: 0;
-  text-align: justify;
 }
 
 .subtext {
@@ -121,6 +123,17 @@ a:active {
 
   .leftpane {
     width: 100%;
+  }
+
+  .links-leftpane {
+    display: none;
+  }
+
+  .links-rightpane {
+    display: block;
+    font-size: 1.15em;
+    margin-top: 2em;
+    text-align: end;
   }
 
   .rightpane {

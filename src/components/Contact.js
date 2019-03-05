@@ -20,8 +20,8 @@ export default () => (
       <div className="rightpane">
         <p className="rightpane-top">
           Angel Gomez Salazar is a San Francisco based Software Engineer
-          building cool stuff at Facebook. Currently on the Oculus Dev Infra team,
-          previously GraphQL and Oculus Skyline.
+          building cool stuff at Facebook. Currently on the Oculus Dev Infra
+          team, previously GraphQL and Oculus Skyline.
         </p>
         <Links position="right" />
       </div>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Gomez Salazar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #2B2B3B;
+            background-color: #F8F9FA;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 120px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #2B2B3B;
+            margin-bottom: 30px;
+            letter-spacing: -0.02em;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .bio {
+            animation: slideUp 0.8s ease-out 0.2s both;
+        }
+
+        .bio p {
+            margin-bottom: 24px;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #4A5568;
+            font-weight: 400;
+        }
+
+        .bio p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: #2B2B3B;
+            font-weight: 600;
+        }
+
+        .links {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            animation: slideUp 0.8s ease-out 0.4s both;
+        }
+
+        .links a {
+            color: #2B2B3B;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 2px;
+        }
+
+        .links a:hover {
+            opacity: 0.7;
+            border-bottom-color: #2B2B3B;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 80px 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .bio p {
+                font-size: 16px;
+            }
+
+            .links {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Angel Gomez Salazar</h1>
+        
+        <div class="bio">
+            <p>
+                I'm building the future of <span class="highlight">robotics at Meta</span>, 
+                where I'm helping lead systems engineering as one of the first engineers on the humanoid robotics effort.
+            </p>
+            
+            <p>
+                Over nine years at Meta, I've shipped products that push the boundaries 
+                of what's possible. Previously, I led systems engineering for 
+                <span class="highlight">Orion AR Glasses</span> and <span class="highlight">Ray-Ban Meta</span>, 
+                and built the infrastructure that shipped Oculus Quest, Quest 2, and Rift to millions.
+            </p>
+            
+            <p>
+                Before diving into hardware, I worked on Meta's core GraphQL team, 
+                helping scale one of the world's largest API infrastructures.
+            </p>
+        </div>
+        
+        <div class="links">
+            <a href="https://linkedin.com/in/angelgs" target="_blank">LinkedIn</a>
+            <a href="https://x.com/angel_gomez_s" target="_blank">X</a>
+        </div>
+    </div>
+</body>
+</html>
